@@ -1,5 +1,12 @@
 {
+  "type": "module",
   "scripts": {
-    "serve": "node ./index.js"
+    "serve": "node js/index2.js",
+    "ts:serve": "npx tsx ./ts/index.ts"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "20.1.2",
+    "tsx": "4.0.0",
+    "typescript": "5.2.2"
   }
 }
